@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="351"
+   inkscape:export-xdpi="351"
+   inkscape:export-filename="D:\Users\grigo\Google Drive\Facultad\Balseiro\ib-logo.png"
+   width="62.883999mm"
+   height="58.128067mm"
+   viewBox="0 0 62.883999 58.128067"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="IB.svg">
+  <defs
+     id="defs2">
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="43.619912"
+     inkscape:cy="176.60338"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-bbox="true"
+     inkscape:snap-page="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-72.123482,-115.32288)">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,24.967862,45.149263)"
+       id="g6"
+       inkscape:export-xdpi="351.18622"
+       inkscape:export-ydpi="351.18622">
+      <path
+         id="path2"
+         d="m 245.792,341.356 c 0,0 14.516,-36.06 40.941,-26.356 10.807,4.666 13.612,17.01 13.612,17.01 0,0 2.028,18.356 -15.634,23.786 -6.166,1.107 -7.655,1.281 -7.655,1.281 l -5.534,-1.362 -2.548,-1.356 c 0,0 0,-0.304 -0.45,-2.225 -1.492,-0.168 -5.669,0 -5.669,0 0,0 -2.093,-2.999 -4.34,-4.345 -0.141,-1.784 -0.141,-5.689 -0.141,-5.689 l -12.582,-0.744"
+         fill="#ed1c24" />
+      <path
+         id="path4"
+         d="m 278.545,363.944 c 0,0 -0.745,-6.146 -26.157,-0.743 -0.457,-0.603 -2.409,-2.398 -2.409,-2.398 l -2.543,1.356 -1.336,-3.895 c 0,0 -2.392,-1.058 -2.538,-1.058 -0.157,0 -0.157,-4.183 -0.157,-4.183 l -1.044,-2.549 -2.406,-0.304 c 0,0 -33.488,29.182 -32.447,74.508 0,0 0.569,26.226 28.883,26.926 24.506,0.596 63.243,-32.182 63.243,-32.182 0,0 20.504,-17.934 25.283,-22.875 4.787,-4.925 23.8,-26.926 25.604,-29.162 1.77,-2.245 10.156,-13.332 10.156,-13.332 0,0 7.193,-9.112 13.166,-19.723 5.971,-10.632 15.104,-27.083 12.262,-31.863 -2.828,-4.784 -9.273,-5.852 -12.416,0.445 8.371,-4.491 9.126,-0.753 9.279,0 0.15,0.754 0.594,3.288 -1.199,7.621 -1.803,4.324 -6.881,14.809 -17.643,29.042 -10.773,14.184 -24.844,32.438 -41.002,46.356 -16.163,13.913 -32.452,26.312 -43.663,32.6 -11.229,6.302 -24.986,12.579 -32.775,10.328 -7.777,-2.24 -6.862,-11.96 -4.627,-18.236 2.236,-6.309 6.125,-15.119 15.563,-25.738 9.411,-10.621 5.836,-6.125 7.62,-7.947 1.791,-1.794 13.303,-12.994 13.303,-12.994 z"
+         fill="#ed1c24" />
+    </g>
+  </g>
+</svg>

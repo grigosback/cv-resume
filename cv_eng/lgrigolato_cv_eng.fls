@@ -1,9 +1,9 @@
-PWD d:\Users\grigo\Google Drive\CV\cv_eng
+PWD d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng
 INPUT C:\Users\grigo\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.tex
-OUTPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.log
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\resume.cls
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\resume.cls
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.tex
+OUTPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.log
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\resume.cls
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\resume.cls
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo
@@ -97,9 +97,9 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.aux
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.aux
-OUTPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.aux
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.aux
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.aux
+OUTPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.aux
 INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
@@ -112,23 +112,23 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\refcount\refcount.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\refcount\refcount.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\gettitlestring\gettitlestring.sty
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.out
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.out
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.out
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.out
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.out
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.out
-OUTPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.out
-OUTPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.pdf
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.out
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.out
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.out
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.out
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.out
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.out
+OUTPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.out
+OUTPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.pdf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\gmail.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\gmail.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\gmail.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\gmail.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\gmail.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\gmail.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\gmail.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\gmail.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\gmail.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\gmail.png
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
@@ -137,64 +137,64 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\whatsapp.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\whatsapp.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\whatsapp.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\whatsapp.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\whatsapp.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\location.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\location.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\location.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\location.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\location.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\linkedin.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\linkedin.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\linkedin.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\linkedin.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\linkedin.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\whatsapp.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\whatsapp.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\whatsapp.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\whatsapp.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\whatsapp.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\location.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\location.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\location.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\location.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\location.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\linkedin.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\linkedin.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\linkedin.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\linkedin.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\linkedin.png
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\github.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\github.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\github.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\github.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\github.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\github.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\github.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\github.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\github.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\github.png
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\ib-logo.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\ib-logo.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\ib-logo.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\ib-logo.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\ib-logo.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\ib-logo.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\ib-logo.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\ib-logo.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\ib-logo.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\ib-logo.png
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\fceia.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\fceia.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\fceia.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\fceia.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\fceia.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\cit.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\cit.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\cit.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\cit.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\cit.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\minrel-chile.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\minrel-chile.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\minrel-chile.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\minrel-chile.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\minrel-chile.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\fl.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\fl.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\fl.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\fl.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\fl.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\fceia.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\fceia.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\fceia.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\fceia.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\fceia.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\cit.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\cit.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\cit.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\cit.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\cit.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\minrel-chile.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\minrel-chile.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\minrel-chile.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\minrel-chile.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\minrel-chile.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\fl.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\fl.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\fl.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\fl.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\fl.png
 INPUT C:\Users\grigo\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\ceib.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\ceib.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\ceib.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\ceib.png
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\images\ceib.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\ceib.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\ceib.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\ceib.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\ceib.png
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\images\ceib.png
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm1095.tfm
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.aux
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.out
-INPUT d:\Users\grigo\Google Drive\CV\cv_eng\lgrigolato_cv_eng.out
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.aux
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.out
+INPUT d:\Users\grigo\Google Drive\CV\cv-resume\cv_eng\lgrigolato_cv_eng.out
 INPUT C:\Users\grigo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\grigo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb

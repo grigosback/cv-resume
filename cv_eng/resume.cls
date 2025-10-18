@@ -1,51 +1,51 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Professional CV - RESUME CLASS FILE
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% This class file defines the structure and design of the template. 
-%
-% Original header:
+% resume.cls
+
+% \documentstyle{resume}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Copyright (C) 2010 by Trey Hunner
 %
 % Copying and distribution of this file, with or without modification,
 % are permitted in any medium without royalty provided the copyright
-% notice and this notice are preserved. This file is offered as-is,
+% notice and this notice are preserved.  This file is offered as-is,
 % without any warranty.
 %
-% Created by Trey Hunner and modified by www.LaTeXTemplates.com
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
 
-\LoadClass[11pt,letterpaper]{article} % Font size and paper type
+\LoadClass[11pt,a4paper]{article}
+\usepackage{hyperref}
+\usepackage[parfill]{parskip}       % Do not indent paragraphs
+\usepackage{array}                  % required for boldface tabular columns
+\usepackage{ifthen}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{enumitem}% http://ctan.org/pkg/enumitem
 
-\usepackage[parfill]{parskip} % Remove paragraph indentation
-\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
-\usepackage{ifthen} % Required for ifthenelse statements
+%\nofiles                            % .aux files are not needed for resumes
+\pagestyle{empty}                   % resumes do not need page numbers
 
-\pagestyle{empty} % Suppress page numbers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% HEADINGS: Commands for printing name and address
 
-%----------------------------------------------------------------------------------------
-%	HEADINGS COMMANDS: Commands for printing name and address
-%----------------------------------------------------------------------------------------
-
-\def \name#1{\def\@name{#1}} % Defines the \name command to set name
-\def \@name {} % Sets \@name to empty by default
+\def \name#1{\def\@name{#1}}        % \name command can be used to set name
+\def \@name {}                      % Set \@name to empty by default
 
 \def \title#1{\def\@title{#1}} % Defines the \title command to set title
 \def \@title {} % Sets \@title to empty by default
 
-\def \addressSep {$\diamond$} % Set default address separator to a diamond
+\def \mat#1{\def\@mat{#1}} % Defines the \title command to set title
+\def \@mat {} % Sets \@title to empty by default
 
-% One, two or three address lines can be specified 
+\def \addressSep {$\diamond$}         % Set default address seperator
+
+% One or two address lines can be specified
 \let \@addressone \relax
 \let \@addresstwo \relax
 \let \@addressthree \relax
 
-% \address command can be used to set the first, second, and third address (last 2 optional)
+% \address command can be used to set first and second address (optional)
 \def \address #1{
     \@ifundefined{@addresstwo}{
         \def \@addresstwo {#1}
@@ -59,88 +59,107 @@
 
 % \printaddress is used to style an address line (given as input)
 \def \printaddress #1{
-\begingroup
-\def \\ {\addressSep\ }
-\centerline{#1}
-\endgroup
-\par
-\addressskip
+  \begingroup
+    \def \\ {\addressSep\ }
+    \centerline{#1}
+  \endgroup
+  \par
+  \addressskip
+}
+
+\def \printprofilepic {
+  \begingroup
+  \centerline{\includegraphics[width=4cm]{images/profile.jpg}}
+  \bigskip
+  \endgroup
+  \smallbreak
 }
 
 % \printname is used to print the name as a page header
 \def \printname {
-    \begingroup
-    \hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
-    \nameskip\break
-    \endgroup
+  \begingroup
+    \centerline{\textbf{\MakeUppercase{\namesize\@name}}}
+    \bigskip
+  \endgroup
+  \par
+
 }
 
 % \printtitle is used to print the title as a page header
 \def \printtitle {
     \begingroup
     \centerline{\MakeUppercase{\titlesize\bf \@title}}
-    \titleskip
-    \endgroup\break
+    \bigskip
+    \endgroup
+
 }
 
-%----------------------------------------------------------------------------------------
-%	PRINT THE HEADING LINES
-%----------------------------------------------------------------------------------------
-
-\let\ori@document=\document
-\renewcommand{\document}{
-    \ori@document  % Begin document
-    \printname % Print the name specified with \name
-    \printtitle % Print the title specified with \title
-    \@ifundefined{@addressone}{}{ % Print the first address if specified
-        \printaddress{\@addressone}}
-    \@ifundefined{@addresstwo}{}{ % Print the second address if specified
-        \printaddress{\@addresstwo}}
-    \@ifundefined{@addressthree}{}{ % Print the third address if specified
-        \printaddress{\@addressthree}}
+\def \printmat {
+    \begingroup
+    \centerline{\MakeUppercase{\matsize\bf \@mat}}
+    \bigskip
+    \endgroup
 }
 
-%----------------------------------------------------------------------------------------
-%	SECTION FORMATTING
-%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DOCUMENT: Create the head of the document
 
-% Defines the rSection environment for the large sections within the CV
-\newenvironment{rSection}[1]{ % 1 input argument - section name
-    \sectionskip
-    \MakeUppercase{\bf #1} % Section title
-    \sectionlineskip
-    \hrule % Horizontal line
-    \begin{list}{}{ % List for each individual item in the section
-            \setlength{\leftmargin}{1.5em} % Margin within the section
-        }
-        \item[]
-              }{
-    \end{list}
+\AtBeginDocument{                     % Begin document
+  %\printprofilepic
+  \printname                        % Print the name specified with \name
+  \printtitle % Print the title specified with \title
+  %\printmat
+  \@ifundefined{@addressone}{}{     % Print the first address if specified
+    \printaddress{\@addressone}}
+  \@ifundefined{@addresstwo}{}{     % Print the second address if specified
+    \printaddress{\@addresstwo}}
+  \@ifundefined{@addressthree}{}{ % Print the third address if specified
+      \printaddress{\@addressthree}}
 }
 
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE FORMATTING
-%----------------------------------------------------------------------------------------
+%\AddToHook{begindocument/before}{\RequirePackage{hyperref}}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SECTIONS: Create section headings
 
-\newenvironment{rSubsection}[4]{ % 4 input arguments - company name, year(s) employed, job title and location
-{\bf #1} \hfill {#2} % Bold company name and date on the right
-\ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location line
-\\
-{\em #3} \hfill {\em #4} % Italic job title and location
-}\smallskip
-\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
-    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
-          }{
-\end{list}
-\vspace{0.5em} % Some space after the list of bullet points
+% Used to create large resume section
+\newenvironment{rSection}[1]{
+  \sectionskip
+  \textbf{\MakeUppercase{#1}}
+  \sectionlineskip
+  \hrule
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+  \item[]
+}{
+  \end{list}
 }
 
-% The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
-\def\namesize{\huge} % Size of the name at the top of the document
-\def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
-\def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
-\def\nameskip{\bigskip} % The space after your name at the top
-\def\sectionskip{\medskip} % The space after the heading section
+% Used to format job listing
+\newenvironment{rSubsection}[4]{
+  %%%%%%%%%%%%%%%%%%%%%% Default Layout: %%%%%%%%%%%%%%%%%%%%%%%%
+  %%    Employer (bold)                     Dates (regular)    %%
+  %%    Title (emphasis)                Location (emphasis)    %%
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \textbf{#1}                 \hfill                  {    #2}% Stop a space
+  \ifthenelse{\equal{#3}{}}{}{
+  \\
+  \emph{#3}                \hfill                  \emph{#4}% Stop a space
+  }\smallskip
+  % \cdot used for bullets, items non-indented
+  \begin{list}{$\cdot$}{\leftmargin=0em}
+  \itemsep -0.5em \vspace{-0.5em}
+}{
+  \end{list}
+  \vspace{0.5em}
+}
 
+\def\namesize{\huge}
 \def\titlesize{\LARGE} %
+\def\matsize{\LARGE} %
+
+\def\nameskip{\bigskip}
 \def\titleskip{\smallskip} %
+\def\addressskip{\smallskip}
+\def\sectionskip{\medskip}
+\def\sectionlineskip{\medskip}

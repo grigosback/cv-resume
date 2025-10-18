@@ -21,20 +21,17 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass{resume} % Use the custom resume.cls style
-\usepackage{graphicx}
-\usepackage{enumitem}% http://ctan.org/pkg/enumitem
-\usepackage{hyperref}
 \usepackage[left=0.75in,top=0.41in,right=0.75in,bottom=0.41in]{geometry} % Document margins
-\usepackage[english]{babel}
+\usepackage[spanish]{babel}
 
 \name{Lucas Mariano Grigolato}
-\title{Telecommunications Engineer}
+\title{FPGA Design \& Telecommunications Engineer}
 
-\address{\includegraphics[height=0.25cm]{images/location.png} Pellegrini 868 P5 D4 \\ Rosario (2000), Santa Fe, Argentina} % Your address
+\address{\includegraphics[height=0.25cm]{images/gmail.png} \href{mailto:lucasmarianogrigolato@gmail.com}{lucasmarianogrigolato@gmail.com} \\ \includegraphics[height=0.25cm]{images/location.png} Helmond, The Netherlands} % Your address
 
 \address{\includegraphics[height=0.25cm]{images/linkedin.png} \url{linkedin.com/in/lucas-grigolato} \\ \includegraphics[height=0.25cm]{images/github.png} \url{github.com/grigosback}} % Your secondary addess (optional)
 
-\address{\includegraphics[height=0.25cm]{images/gmail.png} \href{mailto:lucas.grigolato@ib.edu.ar}{lucas.grigolato@ib.edu.ar} \\ \includegraphics[height=0.25cm]{images/whatsapp.png} (+54)~$\cdot$~3464~$\cdot$~590346} % Your phone number and email
+%\address{\includegraphics[height=0.25cm]{images/gmail.png} \href{mailto:lucasmarianogrigolato@gmail.com}{lucasmarianogrigolato@gmail.com}\\ \includegraphics[height=0.25cm]{images/whatsapp.png} (+54)~$\cdot$~3464~$\cdot$~590346} % Your phone number and email
 
 \begin{document}
 
@@ -44,22 +41,36 @@
 
 \begin{rSection}{Experience}
 
-    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/emtech.png} \href{http://emtech.com.ar/}{Emtech S.A.} \ref{emtech}}{Oct 2020 - Now}{FPGA Design Engineer}{Rosario, Santa Fe, Argentina}
-        \item[]Currently working on the design, verification and implementation of several FPGA cores and device firmwares for different projects related to satellite communications
-        \item FPGA core design
-        \item Firmware development
-        \item Design and implementation of communications protocols
-        \item Verification and validation of simulation models
-        %     \item Complete
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/tmc.png} \href{https://tmc-employeneurship.com/}{TMC Electronics} \ref{tmc}}{Dec 2022 - Now}{FPGA Engineer}{Eindhoven, The Netherlands}
+
+        \item[]Currently working as a consultant for Ericsson (Sweden) on projects involving high-capacity wireless communications.
+        \item Designed and implemented FPGA cores and device firmware for various high-capacity wireless communication projects.
+        \item Used High-Level Synthesis (HLS) to develop IP cores from C++ behavioral descriptions.
+        \item Developed C++ software to interface CPUs with custom FPGA designs.
+        \item Implemented acceptance tests for FPGA designs and individual IP cores.
+        \item Automated workflows and the CI/CD environment using Make, Python, and Bash scripts.
+
+    \end{rSubsection}
+
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/emtech.png} \href{https://emtech.com.ar/}{Emtech S.A.} \ref{emtech}}{Oct 2020 - Nov 2022}{FPGA Design Engineer}{Rosario, Santa Fe, Argentina}
+
+        \item[]Designed, verified, and implemented FPGA cores and device firmware for satellite communication projects.
+        \item Developed FPGA cores for digital signal processing and control logic.
+        \item Created low-level firmware for custom hardware interfaces.
+        \item Designed and implemented communication protocols.
+        \item Verified and validated simulation models for FPGA and system-level performance.
+        \item Applied design guidelines specific to space communication systems (e.g., reliability, radiation tolerance, redundancy, error detection and correction).
+
     \end{rSubsection}
 
     %------------------------------------------------
 
     \begin{rSubsection}{\includegraphics[height=0.3cm]{images/cit.png} \href{https://www.centroit.org.ar/}{Centro de Innovación Tecnológica} \ref{cit}}{Mar 2016 - Jul 2017}{Instructor}{Rosario, Santa Fe, Argentina}
-        \item[]During the beginning of 2016 and mid-2017 I worked as an instructor of different IT-related courses at Fundación Libertad
-        \item \textit{Cloud Management with GSuite} (80 hours) - Empleartec Program
-        \item \textit{Cisco IT Essentials} (80 hours)
-        \item \textit{Microsoft Excel, Advanced Level} (12 hours) - 6 Editions
+
+        \item[]Worked as an IT course instructor at Fundación Libertad.
+        \item \textit{Cloud Management with GSuite} – 80 hours (Empleartec Program).
+        \item \textit{Cisco IT Essentials} – 80 hours.
+        \item \textit{Microsoft Excel, Advanced Level} – 12 hours (taught across 6 editions).
 
     \end{rSubsection}
 
@@ -67,27 +78,28 @@
 
     \begin{rSubsection}{\includegraphics[height=0.3cm]{images/minrel-chile.png} \href{https://chile.gob.cl/rosario/}{Consulado General de Chile en Rosario} \ref{chile}}{Sep 2013 - Jul 2017}{IT Support Manager}{Rosario, Santa Fe, Argentina}
 
-        \item Help Desk Manager for 7 employees
-        \item Computer Hardware Maintenance
-        \item Contact between the government of Chile and the consulate for the implementation of new IT solutions
-        \item Implementation, administration, and management of computer network infrastructures
-        \item Advanced software and hardware troubleshooting
-        \item Remote support
+        \item Managed Help Desk team of 7 employees.
+        \item Maintained and repaired computer hardware.
+        \item Acted as liaison between the Chilean government and the consulate for the implementation of new IT solutions.
+        \item Implemented, administered, and managed computer network infrastructures.
+        \item Performed advanced software and hardware troubleshooting.
+        \item Provided remote technical support.
 
     \end{rSubsection}
 
     %------------------------------------------------
+    \clearpage
 
     \begin{rSubsection}{\includegraphics[height=0.3cm]{images/fl.png} \href{https://libertad.org.ar/}{Fundación Libertad} \ref{funlib}}{Aug 2012 - Jul 2017}{IT Support Manager}{Rosario, Santa Fe, Argentina}
 
-        \item Help Desk Manager for 30 employees
-        \item Computer Hardware Maintenance
-        \item Implementation, administration, and management of computer network infrastructures
-        \item Advanced software and hardware troubleshooting
-        \item GSuite Administrator
-        \item Web hosting and domain manager
-        \item Remote support
-        \item Active Directory Administrator (Windows Server 2008)
+        \item Managed Help Desk operations for 30 employees.
+        \item Maintained and repaired computer hardware.
+        \item Implemented, administered, and managed computer network infrastructures.
+        \item Performed advanced software and hardware troubleshooting.
+        \item Administered GSuite environment and user accounts.
+        \item Managed web hosting services and domain configurations.
+        \item Provided remote technical support.
+        \item Administered Active Directory on Windows Server 2008.
 
     \end{rSubsection}
 
@@ -95,7 +107,26 @@
 
 \end{rSection}
 
-\clearpage
+\begin{rSection}{Projects}
+
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/ast.png} \href{https://space.skyrocket.de/doc_sdat/bluewalker-3.htm}{BlueWalker 3}}{Feb 2021 - Dec 2022}{\href{https://ast-science.com/}{AST SpaceMobile}}{}
+        \item[] Designed and refactored communication, control, and design-for-testability (DFT) logic for the Microns blocks used in satellite systems. This included the digital and analog front ends, LTE communication links, and beamformer components.
+
+    \end{rSubsection}
+
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/skyloom.png} V*Ger}{Oct 2020 - Oct 2021}{\href{https://www.skyloom.co/}{Skyloom Global Corp.}}{}
+        \item[] Designed and developed communication cores and control logic for an optical communication terminal used in satellites. Developed and implemented acceptance tests for the corresponding electronic boards.
+
+    \end{rSubsection}
+
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/ib-logo.png} \href{http://ricabib.cab.cnea.gov.ar/909/}{Digital beamformer for the reception of satellite signals}}{Aug 2019 - Dec 2020}{Telecommunications Engineering Department, \href{https://www.argentina.gob.ar/cnea/centros-atomicos/cab}{Centro Atómico Bariloche}}{}
+        \item[] Analyzed and implemented digital beamforming techniques using an antenna array for signal reception, with emphasis on MUSIC and ESPRIT direction-of-arrival estimation algorithms. Developed signal count estimation methods, including an implementation using a Support Vector Machine (SVM) algorithm.
+        Proposed and designed a beamforming system architecture for deployment on a CIAA-ACC development board, distributing functionality between the FPGA and microprocessor.
+        Implemented the complete system in GNU Radio and validated its operation through simulations scripted in Python.
+
+    \end{rSubsection}
+
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -105,16 +136,16 @@
 
     \begin{rSubsection}{\includegraphics[height=0.3cm]{images/ib-logo.png} \href{https://www.ib.edu.ar/}{Instituto Balseiro (UNCuyo)} \ref{ib}}{Jul 2017 - Dec 2020}{Telecommunications Engineering}{San Carlos de Bariloche, Río Negro, Argentina}
 
-        \item 5.5 - years program
-        \item \href{https://www.argentina.gob.ar/cnea}{Comisión Nacional de Energía Atómica} \href{https://www.ib.edu.ar/ingreso-a-carreras/becas.html}{scholarship for undergraduate students}
-        \item Final Project: \href{https://github.com/grigosback/digital-beamforming}{\textit{Digital beamformer for the reception of satellite signals}} @ Telecommunications Engineering Department, \href{https://www.argentina.gob.ar/cnea/centros-atomicos/cab}{Centro Atómico Bariloche}
+        \item 5.5 - years program.
+        \item \href{https://www.argentina.gob.ar/cnea}{Comisión Nacional de Energía Atómica} \href{https://www.ib.edu.ar/ingreso-a-carreras/becas.html}{scholarship for undergraduate students}.
+        \item Final Project: \href{http://ricabib.cab.cnea.gov.ar/909/}{\textit{Digital beamformer for the reception of satellite signals}} @ Telecommunications Engineering Department, \href{https://www.argentina.gob.ar/cnea/centros-atomicos/cab}{Centro Atómico Bariloche}.
 
     \end{rSubsection}
 
     \begin{rSubsection}{\includegraphics[height=0.3cm]{images/fceia.png} \href{https://web.fceia.unr.edu.ar/}{Facultad de Cs. Exactas, Ingeniería y Agrimensura (UNR)}}{Feb 2009 - Jul 2017}{Electronic Engineering}{Rosario, Santa Fe, Argentina}
 
-        \item 5 - years program, three years completed
-        \item Obtained Bachelor degree
+        \item 5 - years program, three years completed.
+        \item Obtained Bachelor degree.
 
     \end{rSubsection}
 \end{rSection}
@@ -125,22 +156,32 @@
 %	VOLUNTEER
 %----------------------------------------------------------------------------------------
 
+\clearpage
+
 \begin{rSection}{Volunteer Experience}
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/tmc.png} TMC Works Council (OR)}{October 2023 - Now}{IT Committee Member}{Eindhoven, The Netherlands}
+
+        \item Advised on multiple IT projects implemented by the company’s IT department
+        \item Provided input and feedback to ensure projects positively impacted employees
+        \item Collaborated with council members and IT teams to align technology solutions with employee needs
+        \item Monitored IT initiatives from a user and organizational perspective to improve adoption and effectiveness
+
+    \end{rSubsection}
+
     \begin{rSubsection}{\includegraphics[height=0.3cm]{images/ceib.png} Centro de Estudiantes del Instituto Balseiro \ref{ceib}}{Apr 2019 - Dec 2020}{IT Secretary}{San Carlos de Bariloche, Río Negro, Argentina}
 
-        \item Elected by vote in 2019 and 2020
-        \item Help Desk for $\approx 200$ students
-        \item Administration, maintenance, and management of file servers and web servers
-        \item Implementation and support of VPN solutions
-        \item IT Purchasing Manager
-        \item Contact between students and authorities of the Instituto Balseiro on issues related to IT
+        \item Elected by vote in 2019 and 2020.
+        \item Provided Help Desk support for $\approx 200$ students.
+        \item Administered, maintained, and managed file and web servers.
+        \item Implemented and supported VPN solutions.
+        \item Acted as liaison between students and institute authorities on IT-related matters.
+        \item Managed IT-related purchases and vendor coordination.
 
     \end{rSubsection}
 
     %Section content\ldots
 
 \end{rSection}
-
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
@@ -148,28 +189,34 @@
 \begin{rSection}{Skills}
 
     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-        Programming        & VHDL, SystemVerilog, MATLAB, Python, C, C++, \LaTeX                      \\
-                           & Machine Learning                                                         \\
-        Tools              & Xilinx Vivado, Libero SoC, Questa Sim, Xilinx Vitis, Visual Studio Code, \\
-                           & GitHub, GNU Radio, VMware, Cisco Packet Tracer, VirtualBox,              \\
-                           & CST Studio, Advanced Design System                                       \\
-        FPGA               & Zynq-7000 SoC, Microsemi ProASIC3, Kintex UltraScale,                    \\
-                           & Zynq UltraScale+ RFSoC                                                   \\
-        Networking         & CCNA R\&S (Level 2), pfSense, MikroTik, OpenVPN, WireGuard,              \\
-                           & Squid, Socket API                                                        \\
-        Telecommunications & Optical/RF/Wireless/Analog/Digital/Satellite Communications,             \\
-                           & Fundamentals of Optical Fibers, Digital/Statistical Signal Processing,   \\
-                           & Software Defined Radio, Beamforming                                      \\
-        Operative Systems  & Microsoft Windows, Linux, Cisco IOS, RouterOS                            \\
-        Languages          & English (Advanced), Spanish (Native)
+        Programming \& HDL    & VHDL, SystemVerilog, HLS, Python, MATLAB, C, C++,                   \\
+                              & Machine Learning                                                    \\
+        Tools \& IDEs         & Vivado, Libero SoC, Vitis, Vitis HLS, Catapult HLS, Jenkins,        \\
+                              & Visual Studio Code, GNU Radio, Cisco Packet Tracer,                 \\
+                              & Proxmox, VMware, VirtualBox, CST Studio, ADS.                       \\
+        Version control \& PM & GitLab, Github, Jira.                                               \\
+        FPGA                  & Zynq-7000 SoC, Microsemi ProASIC3, Kintex UltraScale,               \\
+                              & Zynq UltraScale+ RFSoC.                                             \\
+        Verification          & UVM, Questa Sim, VCS.                                               \\
+        Documentation         & \LaTeX, Markdown, Doxygen.                                          \\
+        Networking            & CCNA R\&S (Level 2), pfSense, MikroTik, OpenVPN, WireGuard,         \\
+                              & Squid, Socket API.                                                  \\
+        Telecommunications    & Optical/RF/Wireless/Analog/Digital/Satellite Communications,        \\
+                              & Fundamentals of Optical Fibers, DSP, Statistical Signal Processing, \\
+                              & Software Defined Radio, Beamforming.                                \\
+        Operative Systems     & Microsoft Windows, Linux, Cisco IOS, RouterOS.                      \\
+        Languages             & English (Professional), Spanish (Native), Dutch (Basic).
     \end{tabular}
 
 \end{rSection}
 
 \clearpage
-
 \begin{rSection}{References}
     \begin{enumerate}[label={[\arabic*]}]
+        \item \label{tmc} \href{https://tmc-employeneurship.com/}{\textbf{TMC Electronics}}
+              \begin{itemize}
+                  \item Mike Odekerken, Senior Business Manager, TMC Electronics \\(\href{mailto:mike.odekerken@tmc.nl}{mike.odekerken@tmc.nl})
+              \end{itemize}
         \item \label{emtech} \href{http://emtech.com.ar/}{\textbf{Emtech S.A.}}
               \begin{itemize}
                   \item Ing. Guillermo Güichal, CEO, Emtech S.A.\\(\href{mailto:gguichal@emtech.com.ar}{gguichal@emtech.com.ar})

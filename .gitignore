@@ -1,0 +1,99 @@
+# -----------------------------------------------------
+# LaTeX / MiKTeX build files
+# -----------------------------------------------------
+
+# Windows files
+desktop.ini
+
+# Core auxiliary files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.synctex(busy)
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Temporary and backup files
+*.bak
+*.sav
+*.tmp
+*.temp
+*.old
+*.orig
+*.backup
+*~
+*.swp
+
+# Generated PDFs or other output formats
+*.dvi
+*.ps
+
+# Intermediate files for packages
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.loa
+*.lop
+*.lol
+*.lot
+*.maf
+*.mtc*
+*.mlf*
+*.nav
+*.nlo
+*.nls
+*.out.ps
+*.run.xml
+
+# TikZ / PGFPlots externalization files
+*.dpth
+*.md5
+*.auxlock
+
+# Latexmk and related automation
+latexmkrc
+*.synctex.gz(busy)
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.DS_Store
+*.project
+*.texpadtmp
+*.log-err
+
+# -----------------------------------------------------
+# Keep source files
+# -----------------------------------------------------
+!*.tex
+!*.bib
+!*.sty
+!*.cls
+!*.bst
+!*.cfg
+!*.bbx
+!*.cbx
+!*.lbx
+!*.png
+!*.jpg
+!*.jpeg
+!*.pdf_tex
+!*.eps

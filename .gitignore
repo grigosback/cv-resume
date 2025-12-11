@@ -63,6 +63,9 @@ desktop.ini
 *.out.ps
 *.run.xml
 
+# Compressed files
+*.7z
+
 # TikZ / PGFPlots externalization files
 *.dpth
 *.md5

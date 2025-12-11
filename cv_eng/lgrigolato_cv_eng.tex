@@ -43,16 +43,17 @@
 
     \begin{rSubsection}{\includegraphics[height=0.3cm]{images/tmc.png} \href{https://tmc-employeneurship.com/}{TMC Electronics} \ref{tmc}}{Dec 2022 - Now}{FPGA Engineer}{Eindhoven, The Netherlands}
 
-        \item[]Currently working as a consultant for Ericsson (Sweden) on projects involving high-capacity wireless communications.
+        \item[]Currently working as a consultant for Ericsson (Sweden) on high-capacity wireless communication projects within the MINI-LINK organization.
         \item Designed and implemented FPGA cores and device firmware for various high-capacity wireless communication projects.
-        \item Used High-Level Synthesis (HLS) to develop IP cores from C++ behavioral descriptions.
+        \item Used High-Level Synthesis (HLS) to develop IP cores from C++ behavioral descriptions and to improve the quality of results (QoR) of the existing IP cores library.
+        \item Migrated HLS IP cores from Vitis HLS to Catapult HLS.
         \item Developed C++ software to interface CPUs with custom FPGA designs.
         \item Implemented acceptance tests for FPGA designs and individual IP cores.
         \item Automated workflows and the CI/CD environment using Make, Python, and Bash scripts.
 
     \end{rSubsection}
 
-    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/emtech.png} \href{https://emtech.com.ar/}{Emtech S.A.} \ref{emtech}}{Oct 2020 - Nov 2022}{FPGA Design Engineer}{Rosario, Santa Fe, Argentina}
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/emtech.png} \href{https://emtech.com.ar/}{Emtech S.A.} \ref{emtech}}{Oct 2020 - Nov 2022}{FPGA Design Engineer}{Rosario, Argentina}
 
         \item[]Designed, verified, and implemented FPGA cores and device firmware for satellite communication projects.
         \item Developed FPGA cores for digital signal processing and control logic.
@@ -65,7 +66,7 @@
 
     %------------------------------------------------
 
-    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/cit.png} \href{https://www.centroit.org.ar/}{Centro de Innovación Tecnológica} \ref{cit}}{Mar 2016 - Jul 2017}{Instructor}{Rosario, Santa Fe, Argentina}
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/cit.png} \href{https://www.centroit.org.ar/}{Centro de Innovación Tecnológica} \ref{cit}}{Mar 2016 - Jul 2017}{Instructor}{Rosario, Argentina}
 
         \item[]Worked as an IT course instructor at Fundación Libertad.
         \item \textit{Cloud Management with GSuite} – 80 hours (Empleartec Program).
@@ -76,7 +77,7 @@
 
     %------------------------------------------------
 
-    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/minrel-chile.png} \href{https://chile.gob.cl/rosario/}{Consulado General de Chile en Rosario} \ref{chile}}{Sep 2013 - Jul 2017}{IT Support Manager}{Rosario, Santa Fe, Argentina}
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/minrel-chile.png} \href{https://chile.gob.cl/rosario/}{Consulado General de Chile en Rosario} \ref{chile}}{Sep 2013 - Jul 2017}{IT Support Manager}{Rosario, Argentina}
 
         \item Managed Help Desk team of 7 employees.
         \item Maintained and repaired computer hardware.
@@ -90,7 +91,7 @@
     %------------------------------------------------
     \clearpage
 
-    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/fl.png} \href{https://libertad.org.ar/}{Fundación Libertad} \ref{funlib}}{Aug 2012 - Jul 2017}{IT Support Manager}{Rosario, Santa Fe, Argentina}
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/fl.png} \href{https://libertad.org.ar/}{Fundación Libertad} \ref{funlib}}{Aug 2012 - Jul 2017}{IT Support Manager}{Rosario, Argentina}
 
         \item Managed Help Desk operations for 30 employees.
         \item Maintained and repaired computer hardware.
@@ -107,26 +108,38 @@
 
 \end{rSection}
 
-\begin{rSection}{Projects}
+\begin{rSection}{Key Projects}
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/ericsson.png} \href{https://www.ericsson.com/en/portfolio/networks/ericsson-radio-system/mobile-transport/microwave}{MINI-LINK}}{Dec 2022 - Now}{\href{https://www.ericsson.com/}{Ericsson}}{}
+        \item[] Focused on applying the High-Level Synthesis (HLS) paradigm to improve the quality of results of the IP cores used in the MINI-LINK product family. Developed an abstraction layer enabling the same C++ codebase to be used with both Vitis HLS and Catapult HLS, allowing exploration of different targets with unified source code. Contributed to power and area optimization, latency reduction, and throughput improvements by following HLS best practices. Additionally, developed MATLAB acceptance tests for FPGA designs and IP cores, validating algorithm behavior using floating-point and fixed-point libraries.
+
+    \end{rSubsection}
 
     \begin{rSubsection}{\includegraphics[height=0.3cm]{images/ast.png} \href{https://space.skyrocket.de/doc_sdat/bluewalker-3.htm}{BlueWalker 3}}{Feb 2021 - Dec 2022}{\href{https://ast-science.com/}{AST SpaceMobile}}{}
-        \item[] Designed and refactored communication, control, and design-for-testability (DFT) logic for the Microns blocks used in satellite systems. This included the digital and analog front ends, LTE communication links, and beamformer components.
+        \item[] Designed and refactored communication, control, and design-for-testability (DFT) logic for the Microns blocks used in satellite systems. This included digital and analog front ends, LTE communication links, and beamforming components.
 
     \end{rSubsection}
 
     \begin{rSubsection}{\includegraphics[height=0.3cm]{images/skyloom.png} V*Ger}{Oct 2020 - Oct 2021}{\href{https://www.skyloom.co/}{Skyloom Global Corp.}}{}
-        \item[] Designed and developed communication cores and control logic for an optical communication terminal used in satellites. Developed and implemented acceptance tests for the corresponding electronic boards.
+        \item[] Designed and developed communication cores and control logic for an optical communication terminal used in satellite systems. Created and executed acceptance tests for the associated electronic boards.
 
     \end{rSubsection}
 
     \begin{rSubsection}{\includegraphics[height=0.3cm]{images/ib-logo.png} \href{http://ricabib.cab.cnea.gov.ar/909/}{Digital beamformer for the reception of satellite signals}}{Aug 2019 - Dec 2020}{Telecommunications Engineering Department, \href{https://www.argentina.gob.ar/cnea/centros-atomicos/cab}{Centro Atómico Bariloche}}{}
-        \item[] Analyzed and implemented digital beamforming techniques using an antenna array for signal reception, with emphasis on MUSIC and ESPRIT direction-of-arrival estimation algorithms. Developed signal count estimation methods, including an implementation using a Support Vector Machine (SVM) algorithm.
-        Proposed and designed a beamforming system architecture for deployment on a CIAA-ACC development board, distributing functionality between the FPGA and microprocessor.
-        Implemented the complete system in GNU Radio and validated its operation through simulations scripted in Python.
+        \item[] Analyzed and implemented digital beamforming techniques using an antenna array for signal reception, focusing on the MUSIC and ESPRIT direction-of-arrival estimation algorithms. Developed signal count-estimation methods, including an SVM-based implementation. Proposed and designed a beamforming system architecture for deployment on a CIAA-ACC development board, distributing functionality between the FPGA and microprocessor. Implemented the complete system in GNU Radio and validated its operation through Python-based simulations.
 
     \end{rSubsection}
 
 \end{rSection}
+
+\begin{rSection}{HLS Outreach \& Knowledge Sharing}
+    With extensive experience working with the HLS paradigm, I delivered the following presentations and talks, sharing practical insights, examples, and demonstrations:
+    \item \textbf{25/09/2023 - HLS Pizza Session @ TMC Electronics:} Introduction to HLS for 40 participants, including a demo of an FFT implementation in Vitis HLS.
+    \item \textbf{26/04/2024 - Introduction to HLS @ Instituto Balseiro:} Taught a four-hour class on the HLS paradigm and workflow to Telecommunications Engineering students.
+    \item \textbf{03/12/2024 - Experiences with HLS @ IMEC:} Presented to IMEC’s DSP team on HLS benefits and practical applications in their projects.
+\end{rSection}
+
+
+\clearpage
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -134,18 +147,18 @@
 
 \begin{rSection}{Education}
 
-    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/ib-logo.png} \href{https://www.ib.edu.ar/}{Instituto Balseiro (UNCuyo)} \ref{ib}}{Jul 2017 - Dec 2020}{Telecommunications Engineering}{San Carlos de Bariloche, Río Negro, Argentina}
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/ib-logo.png} \href{https://www.ib.edu.ar/}{Instituto Balseiro (UNCuyo)} \ref{ib}}{Jul 2017 - Dec 2020}{Telecommunications Engineering}{San Carlos de Bariloche, Argentina}
 
-        \item 5.5 - years program.
+        \item 5.5-year program.
         \item \href{https://www.argentina.gob.ar/cnea}{Comisión Nacional de Energía Atómica} \href{https://www.ib.edu.ar/ingreso-a-carreras/becas.html}{scholarship for undergraduate students}.
         \item Final Project: \href{http://ricabib.cab.cnea.gov.ar/909/}{\textit{Digital beamformer for the reception of satellite signals}} @ Telecommunications Engineering Department, \href{https://www.argentina.gob.ar/cnea/centros-atomicos/cab}{Centro Atómico Bariloche}.
 
     \end{rSubsection}
 
-    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/fceia.png} \href{https://web.fceia.unr.edu.ar/}{Facultad de Cs. Exactas, Ingeniería y Agrimensura (UNR)}}{Feb 2009 - Jul 2017}{Electronic Engineering}{Rosario, Santa Fe, Argentina}
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/fceia.png} \href{https://web.fceia.unr.edu.ar/}{Facultad de Cs. Exactas, Ingeniería y Agrimensura (UNR)}}{Feb 2009 - Jul 2017}{Electronic Engineering}{Rosario, Argentina}
 
-        \item 5 - years program, three years completed.
-        \item Obtained Bachelor degree.
+        \item 5-year program, three years completed.
+        \item Obtained a Bachelor’s degree.
 
     \end{rSubsection}
 \end{rSection}
@@ -155,8 +168,6 @@
 %----------------------------------------------------------------------------------------
 %	VOLUNTEER
 %----------------------------------------------------------------------------------------
-
-\clearpage
 
 \begin{rSection}{Volunteer Experience}
     \begin{rSubsection}{\includegraphics[height=0.3cm]{images/tmc.png} TMC Works Council (OR)}{October 2023 - Now}{IT Committee Member}{Eindhoven, The Netherlands}
@@ -168,7 +179,7 @@
 
     \end{rSubsection}
 
-    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/ceib.png} Centro de Estudiantes del Instituto Balseiro \ref{ceib}}{Apr 2019 - Dec 2020}{IT Secretary}{San Carlos de Bariloche, Río Negro, Argentina}
+    \begin{rSubsection}{\includegraphics[height=0.3cm]{images/ceib.png} Centro de Estudiantes del Instituto Balseiro}{Apr 2019 - Dec 2020}{IT Secretary}{San Carlos de Bariloche, Argentina}
 
         \item Elected by vote in 2019 and 2020.
         \item Provided Help Desk support for $\approx 200$ students.
@@ -189,7 +200,7 @@
 \begin{rSection}{Skills}
 
     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-        Programming \& HDL    & VHDL, SystemVerilog, HLS, Python, MATLAB, C, C++,                   \\
+        Programming \& HDL    & HLS, C++, C, SystemVerilog, VHDL, Python, MATLAB,                   \\
                               & Machine Learning                                                    \\
         Tools \& IDEs         & Vivado, Libero SoC, Vitis, Vitis HLS, Catapult HLS, Jenkins,        \\
                               & Visual Studio Code, GNU Radio, Cisco Packet Tracer,                 \\
@@ -204,7 +215,7 @@
         Telecommunications    & Optical/RF/Wireless/Analog/Digital/Satellite Communications,        \\
                               & Fundamentals of Optical Fibers, DSP, Statistical Signal Processing, \\
                               & Software Defined Radio, Beamforming.                                \\
-        Operative Systems     & Microsoft Windows, Linux, Cisco IOS, RouterOS.                      \\
+        Operating Systems     & Microsoft Windows, Linux, Cisco IOS, RouterOS.                      \\
         Languages             & English (Professional), Spanish (Native), Dutch (Basic).
     \end{tabular}
 
@@ -215,34 +226,30 @@
     \begin{enumerate}[label={[\arabic*]}]
         \item \label{tmc} \href{https://tmc-employeneurship.com/}{\textbf{TMC Electronics}}
               \begin{itemize}
-                  \item Mike Odekerken, Senior Business Manager, TMC Electronics \\(\href{mailto:mike.odekerken@tmc.nl}{mike.odekerken@tmc.nl})
+                  \item Tom Blaauw, Senior Business Manager, TMC Electronics
               \end{itemize}
         \item \label{emtech} \href{http://emtech.com.ar/}{\textbf{Emtech S.A.}}
               \begin{itemize}
-                  \item Ing. Guillermo Güichal, CEO, Emtech S.A.\\(\href{mailto:gguichal@emtech.com.ar}{gguichal@emtech.com.ar})
+                  \item Ing. Guillermo Güichal, CEO, Emtech S.A.
               \end{itemize}
         \item \label{cit} \href{https://www.centroit.org.ar/}{\textbf{Centro de Innovación Tecnológica}}
               \begin{itemize}
-                  \item Ing. Sebastián Bosch, Director, Centro de Innovación Tecnológica, Fundación Libertad\\(\href{mailto:sbosch@edn.org.ar}{sbosch@edn.org.ar})
+                  \item Ing. Sebastián Bosch, Director, Centro de Innovación Tecnológica, Fundación Libertad
               \end{itemize}
         \item \label{chile} \href{https://chile.gob.cl/rosario/}{\textbf{Consulado General de Chile en Rosario}}
               \begin{itemize}
-                  \item Mrs. Arely Mella Contreras, Minister of Faith and Authorized Secretary, Consulado General de Chile en Rosario\\(\href{mailto:amellac@minrel.gob.cl}{amellac@minrel.gob.cl})
+                  \item Mrs. Arely Mella Contreras, Minister of Faith and Authorized Secretary, Consulado General de Chile en Rosario
               \end{itemize}
         \item \label{funlib} \href{https://libertad.org.ar/}{\textbf{Fundación Libertad}}
               \begin{itemize}
-                  \item Mr. Gerardo Bongiovanni, President, Fundación Libertad (\href{mailto:gbongiovanni@libertad.org.ar}{gbongiovanni@libertad.org.ar})
-                  \item Lic. Ana Figueroa Casas, Director, Escuela de Negocios, Fundación Libertad\\(\href{mailto:afcasas@edn.org.ar}{afcasas@edn.org.ar})
+                  \item Mr. Gerardo Bongiovanni, President, Fundación Libertad
+                  \item Lic. Ana Figueroa Casas, Director, Escuela de Negocios, Fundación Libertad
               \end{itemize}
         \item \label{ib} \href{https://www.ib.edu.ar/}{\textbf{Instituto Balseiro}}
               \begin{itemize}
-                  \item Dr. Diego Grosz, Head of Department, Telecommunications Engineering, Centro Atómico Bariloche (\href{mailto:grosz@ib.edu.ar}{grosz@ib.edu.ar})
+                  \item Dr. Diego Grosz, Head of Department, Telecommunications Engineering, Centro Atómico Bariloche
                   \item Dr. Santiago Hernandez, Final
-                        Project Advisor,  Telecommunications  Engineering,  Centro  Atómico Bariloche (\href{mailto:shernandez@ib.edu.ar}{shernandez@ib.edu.ar})
-              \end{itemize}
-        \item \label{ceib} \textbf{Centro de Estudiantes del Instituto Balseiro}
-              \begin{itemize}
-                  \item Executive Committee (\href{mailto:cdceib@gmail.com}{cdceib@gmail.com})
+                        Project Advisor,  Telecommunications  Engineering,  Centro  Atómico Bariloche
               \end{itemize}
     \end{enumerate}
     %Section content\ldots
